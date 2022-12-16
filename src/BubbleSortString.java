@@ -34,5 +34,13 @@ public class BubbleSortString {
             System.out.println(i);
         }
         String str2[] = {"Pata", "Peter", "Andi", "Franki", "Olaf", "Asterix", "Laura", "Christoph", "Bernd", "Xena"};
+
+
+        String[] sortString2 = bubbleSortString.sortString(str2);
+
+        System.out.println("Sortiert:");
+        for (String i : sortString2) {
+            System.out.println(i);
+        }
     }
 }
